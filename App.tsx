@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import {StyleSheet, Text, SafeAreaView} from 'react-native';
+import { SafeAreaView } from 'react-native';
 import WebView from "react-native-webview";
 
 export default function App() {
@@ -15,15 +15,3 @@ export default function App() {
     </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  webviewContainer: {
-    flex: 1
-  }
-});
