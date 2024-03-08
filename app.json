@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b7acbfd2-9752-4e6d-b3ab-41cc28f7aafe"
+      }
+    },
+    "owner": "marcoescaleira"
   }
 }
